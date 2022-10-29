@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSplashScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Layout2">
+
+    <ImageView
+
+        android:id="@+id/ivKerGunBat"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/ivGambarKerGunBat"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/splash_screen2"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Game Suit</string>
+    <string name="kertas">Kertas</string>
+    <string name="gunting">Gunting</string>
+    <string name="pemain_1">Pemain 1</string>
+    <string name="batu">Batu</string>
+    <string name="com">COM</string>
+    <string name="vs">VS</string>
+    <string name="r">batu</string>
+    <string name="p">kertas</string>
+    <string name="s">gunting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bermain_suit_melawan_sesama_pemain">Bermain Suit melawan sesama pemain</string>
+    <string name="bermain_suit_melawan_komputer">Bermain suit melawan komputer.</string>
+    <string name="logo_landing_page_2">Logo Landing Page 2</string>
+    <string name="tuliskan_namamu_dibawah">Tuliskan namamu dibawah</string>
+    <string name="gambar_landing_page_1">Gambar Landing Page 1</string>
+    <string name="nama_player">Nama Player</string>
+    <string name="gambar_landing_page_2">Gambar landing page 2</string>
+    <string name="player_2">Player 2</string>
+    <string name="refresh">Refresh</string>
+    <string name="player_vs_player">Player vs player</string>
+    <string name="pilih_lawanmu">PILIH LAWANMU</string>
+    <string name="vs_pemain"> vs Pemain</string>
+    <string name="player_vs_cpu">Player vs CPU</string>
+    <string name="vs_cpu"> vs CPU</string>
+</resources>
