@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(), CallBack {
                 val lawan = com.random()
                 lawan.selected()
                 when (lawan.contentDescription){
-                    "gunting"-> Toast.makeText(this,"CPU Memilih Gunting", Toast.LENGTH_SHORT).show()
+                    "gunting"-> Toast.makeText(this,"CPU Memilih Guntinggunting", Toast.LENGTH_SHORT).show()
                     "kertas"-> Toast.makeText(this, "CPU Memilih Kertas", Toast.LENGTH_SHORT).show()
                     "batu"-> Toast.makeText(this, "CPU memilih Batu", Toast.LENGTH_SHORT).show()
                 }
