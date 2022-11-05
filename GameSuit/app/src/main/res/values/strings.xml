@@ -25,4 +25,23 @@
     <string name="vs_pemain"> vs Pemain</string>
     <string name="player_vs_cpu">Player vs CPU</string>
     <string name="vs_cpu"> vs CPU</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="password2">Password</string>
+    <string name="username2">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="normal">Normal</string>
+    <string name="theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="setting">Setting</string>
+    <string name="equal">=</string>
+    <string name="lose">LOSE</string>
+    <string name="win">WIN</string>
+    <string name="draw">DRAW</string>
+    <string name="cara_bermain">CARA BERMAIN :</string>
+    <string name="_1_pilih_salah_satu_diantara_gambar_di_bawah_ini">1. Pilih salah satu diantara gambar di bawah ini:</string>
+    <string name="_2_ikuti_aturan_di_bawah_ini">2. Ikuti Aturan di bawah ini:</string>
+    <string name="you">YOU</string>
+    <string name="enemy">ENEMY</string>
+    <string name="help">Help</string>
 </resources>

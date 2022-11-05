@@ -5,13 +5,14 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.MainActivity2"
+    android:backgroundTint="?attr/backgroundPrimaryColorTheme"
     android:padding="16dp">
 
     <ImageView
         android:id="@+id/btnClose"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@drawable/close"
+        android:src="?attr/customBackgroundSrcCloseButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -149,7 +150,7 @@
         android:id="@+id/ivRefresh"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:src="@drawable/refresh"
+        android:src="?attr/customBackgroundSrcRefreshButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

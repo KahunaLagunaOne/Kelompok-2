@@ -14,7 +14,7 @@
         android:fontFamily="@font/comicneue_bold"
         android:text="@string/pilih_lawanmu"
         android:textSize="28sp"
-        android:textColor="@color/black"/>
+        android:textColor="?attr/textColorTheme"/>
 
     <ImageView
         android:contentDescription="@string/player_vs_player"
@@ -36,7 +36,7 @@
             android:text=""
             android:layout_weight="1"
             android:textSize="22sp"
-            android:textColor="@color/black"/>
+            android:textColor="?attr/textColorTheme"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
             android:layout_weight="1"
             android:text=" vs Player"
             android:textSize="22sp"
-            android:textColor="@color/black"/>
+            android:textColor="?attr/textColorTheme"/>
     </LinearLayout>
 
     <ImageView
@@ -54,6 +54,7 @@
         android:layout_height="138dp"
         android:layout_marginTop="48dp"
         android:src="@drawable/landing_page2"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,7 +67,7 @@
             android:layout_weight="1"
             android:text=""
             android:textSize="22sp"
-            android:textColor="@color/black"/>
+            android:textColor="?attr/textColorTheme"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -74,7 +75,23 @@
             android:text=" vs CPU"
             android:fontFamily="@font/comicneue_bold"
             android:textSize="22sp"
-            android:textColor="@color/black"/>
+            android:textColor="?attr/textColorTheme"/>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:backgroundTint="?attr/backgroundSecondaryColorTheme"
+        android:text="@string/setting"
+        android:textColor="?attr/textColorTheme" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:backgroundTint="?attr/backgroundSecondaryColorTheme"
+        android:text="@string/help"
+        android:textColor="?attr/textColorTheme" />
 
 </LinearLayout>

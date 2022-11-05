@@ -1,12 +1,10 @@
 package com.example.gamesuit.ui
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
-import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import com.example.gamesuit.R
 import com.example.gamesuit.databinding.ActivityHalamanMenuBinding
 import com.google.android.material.snackbar.Snackbar
 
@@ -16,10 +14,17 @@ class HalamanMenuActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityHalamanMenuBinding
 
+    @SuppressLint("CommitPrefEdits")
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityHalamanMenuBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+
+
+        val sharedPreference = getSharedPreferences("Setting", MODE_PRIVATE)
+        val sharedEdit = sharedPreference.edit()
+        sharedEdit.putBoolean("checked", false)
 
         val player = intent.getStringExtra("name")
 
@@ -43,6 +48,16 @@ class HalamanMenuActivity : AppCompatActivity() {
             val intent = Intent (this,MainActivity2::class.java)
             intent.putExtra("nama", player)
             startActivity(intent)
+        }
+        binding.btnSetting.setOnClickListener {
+            Intent(this, SettingActivity::class.java).apply {
+                startActivity(this)
+            }
+        }
+        binding.btnHelp.setOnClickListener {
+            Intent(this, HelpActivity::class.java).apply {
+                startActivity(this)
+            }
         }
     }
 }
