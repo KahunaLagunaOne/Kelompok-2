@@ -12,6 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="textColorTheme">@color/black</item>
+        <item name="backgroundPrimaryColorTheme">@color/white</item>
+        <item name="backgroundSecondaryColorTheme">@color/yellow</item>
+        <item name="backgroundTeriaryColorTheme">@color/dark_grey</item>
+        <item name="customBackgroundSrcBackButton">@drawable/normal_theme_back_arrow</item>
+        <item name="customBackgroundRecyclerViewSrc">@drawable/bg_rounded_rv_normal</item>
+        <item name="customBackgroundSrcCloseButton">@drawable/normal_theme_close</item>
+        <item name="customBackgroundSrcRefreshButton">@drawable/normal_theme_refresh</item>
+        <item name="dialogBackgroundColor">@color/light_grey</item>
     </style>
 
 </resources>

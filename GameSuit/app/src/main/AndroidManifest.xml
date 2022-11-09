@@ -15,8 +15,30 @@
         android:theme="@style/Theme.GameSuit"
         tools:targetApi="31">
         <activity
-            android:name=".ui.HalamanMenuActivity"
+            android:name=".ui.HelpActivity"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.SettingActivity"
+            android:exported="false">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.HalamanMenuActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -24,8 +46,6 @@
         <activity
             android:name=".ui.MainActivity2"
             android:exported="false">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -39,12 +59,7 @@
         </activity>
         <activity
             android:name=".ui.splash.SplashScreen"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
